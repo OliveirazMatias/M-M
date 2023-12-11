@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    background-color: #FFF;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-bottom: solid rgb(83, 40, 2) 8px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+#lupa {
+    background: url("./lupa.png") no-repeat right / 15px;
+    background-color: #C8C8C8;
+    border-radius: 10px;
+    width: 200px;
+    padding-left: 15px;
+    border: 0cm;
+}
+
+#body{
+    background-color: #FFD43E;
+}
+.corpo {
+    background-color: #FFD43E;
+    height: 87vb;
+    width: 100%;
+}
+.brasil,
+.user,
+.carrinho {
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.mm {
+    position: absolute;
+    right: 45%;
+    top: 5%;
+}
+
+.mm2 {
+    position: absolute;
+    left: 60%;
+    top: 15%;
+}
+
+.mm3 {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.barralateralesquerda{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.barralateraldireita{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.slid1{
+    width: 800px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+    }
+
+.slid2{
+    width: 300px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+  
+}
+
+.slid3{
+    width: 550px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+ 
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 60px; 
+}
+
+.formularioContato { 
+    top: 53px;
+    max-width:600px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#ffeba4; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+
+.formularioContato:before { 
+
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+
+}
+
+.formularioContato label  { 
+
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:#555; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label textarea { 
+
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+
+.formularioContato button.btn-envia { 
+
+    background-color:rgb(37,174,230); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+    background-color:#333; 
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.produto{
+    border: #333 3px solid;
+    background-color: #ffeba4;
+}
+
+#produtoss{
+    text-align: center;
+    color: #ffeba4;
+    font-size: 50px;
+    position: absolute;
+    right: 600px;
+    top: 170px;
+}
